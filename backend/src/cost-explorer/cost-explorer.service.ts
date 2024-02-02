@@ -12,7 +12,7 @@ export class CostExplorerService {
   private readonly costexplorer: CostExplorerClient;
 
   constructor() {
-    this.costexplorer = new CostExplorerClient({ region: 'us-east-1' });
+    this.costexplorer = new CostExplorerClient({ region: 'ap-northeast-2' });
   }
 
   async getCostAndUsage(accountId: string): Promise<any> {
